@@ -1,0 +1,9 @@
+c:\users\andyd\documents\visual studio 2010\Projects\Angle of Reflection\Angle of Reflection\obj\x86\Debug\Angle_of_Reflection.Form1.resources
+c:\users\andyd\documents\visual studio 2010\Projects\Angle of Reflection\Angle of Reflection\obj\x86\Debug\Angle_of_Reflection.Properties.Resources.resources
+c:\users\andyd\documents\visual studio 2010\Projects\Angle of Reflection\Angle of Reflection\obj\x86\Debug\Angle of Reflection.csproj.GenerateResource.Cache
+c:\users\andyd\documents\visual studio 2010\Projects\Angle of Reflection\Angle of Reflection\bin\Debug\Angle of Reflection.exe
+c:\users\andyd\documents\visual studio 2010\Projects\Angle of Reflection\Angle of Reflection\bin\Debug\Angle of Reflection.pdb
+c:\users\andyd\documents\visual studio 2010\Projects\Angle of Reflection\Angle of Reflection\obj\x86\Debug\Angle of Reflection.exe
+c:\users\andyd\documents\visual studio 2010\Projects\Angle of Reflection\Angle of Reflection\obj\x86\Debug\Angle of Reflection.pdb
+C:\Users\andyd\Documents\Visual Studio 2010\Projects\Angle of Reflection360\Angle of Reflection\obj\x86\Debug\Angle of Reflection.exe
+C:\Users\andyd\Documents\Visual Studio 2010\Projects\Angle of Reflection360\Angle of Reflection\obj\x86\Debug\Angle of Reflection.pdb
