@@ -592,7 +592,112 @@ namespace Angle_of_Reflection
 
         }
 
+        public static double ConvertAngle_360(double angle)
+        {
+            if (angle >= 0)
+            {
+                return angle;
+            }
+            else
+            {
+                return angle + 360;
+            }
+        }
 
+        public static double ConvertAngle_180(double angle)
+        {
+            if (angle > 180)
+            {
+                return angle - 360;
+            }
+            else
+            {
+                return angle;
+            }
+        }
+
+        private void degreeConversion_ValueChanged(object sender, EventArgs e)
+        {//0 to 360
+            double toRadians = Math.PI * (double)degreeConversion.Value / 180.0;
+            radianConversion.Value = (decimal)toRadians;
+
+            //need to work on
+            int temp = (int)degreeConversion.Value;
+            double temp2 = (double)ConvertAngle_180(temp);
+            convertto180.Text = temp2.ToString();
+        }
+
+        private void radianConversion_ValueChanged(object sender, EventArgs e)
+        {//0 to PI
+            double temp = (double)radianConversion.Value;
+
+            if (temp < (0))
+            {
+                temp = 0;
+            }
+            if (temp > ((double)Math.PI)*2)
+            {
+                temp = Math.PI*2;
+            }
+
+            double toRadians = (double)radianConversion.Value * 180.0 / Math.PI;
+
+            if (toRadians > 360)
+            {
+                toRadians = 360.0;
+            }
+
+
+
+            degreeConversion.Value = (decimal)toRadians;
+        }
+
+//---------------------------------------------
+        private void degreeConversion2_ValueChanged(object sender, EventArgs e)
+        {//-180 to 180
+            double toRadians = Math.PI * (double)degreeConversion2.Value / 180.0;
+            radianConversion2.Value = (decimal)toRadians;
+
+            int temp = (int)degreeConversion2.Value;
+            double temp2 = (double)ConvertAngle_360(temp);
+            convertto360.Text = temp2.ToString();
+        }
+//---------------------------------------------
+        private void radianConversion2_ValueChanged(object sender, EventArgs e)
+        {//-PI to PI
+            double temp = (double)radianConversion2.Value;
+
+            if (temp < ((double)-Math.PI))
+            {
+                temp = -Math.PI;
+            }
+            if (temp > ((double)Math.PI))
+            {
+                temp = Math.PI;
+            }
+
+            /*if (radianConversion2.Value < -179)
+            {
+                radianConversion2.Value = -179;
+            }
+            if (radianConversion2.Value > 179)
+            {
+                radianConversion2.Value = 179;
+            }
+             
+            double toRadians = (double)radianConversion2.Value * 180.0 / Math.PI;
+             
+             */
+
+
+            double toRadians = (double)temp * 180.0 / Math.PI;
+            degreeConversion2.Value = (decimal)toRadians;
+        }
+//---------------------------------------------
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
 
 
     }
