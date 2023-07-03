@@ -24,11 +24,12 @@ C:\Users\andyd\Documents\Visual Studio 2010\Projects\Angle of Reflection2\Angle 
 C:\Users\andyd\Documents\Visual Studio 2010\Projects\Angle of Reflection2\Angle of Reflection\obj\x86\Debug\Angle of Reflection360.exe
 C:\Users\andyd\Documents\Visual Studio 2010\Projects\Angle of Reflection2\Angle of Reflection\obj\x86\Debug\Angle of Reflection360.pdb
 C:\Users\andyd\Documents\Visual Studio 2010\Projects\Angle of Reflection2\Angle of Reflection\obj\x86\Debug\Angle of Reflection360.csprojResolveAssemblyReference.cache
-C:\Users\andyd\Documents\Visual Studio 2010\Projects\Angle of Reflection1.3\Angle of Reflection\bin\Debug\Angle of Reflection360_1.3.exe
-C:\Users\andyd\Documents\Visual Studio 2010\Projects\Angle of Reflection1.3\Angle of Reflection\bin\Debug\Angle of Reflection360_1.3.pdb
 C:\Users\andyd\Documents\Visual Studio 2010\Projects\Angle of Reflection1.3\Angle of Reflection\obj\x86\Debug\Angle_of_Reflection360.compass.resources
 C:\Users\andyd\Documents\Visual Studio 2010\Projects\Angle of Reflection1.3\Angle of Reflection\obj\x86\Debug\Angle_of_Reflection.Form1.resources
 C:\Users\andyd\Documents\Visual Studio 2010\Projects\Angle of Reflection1.3\Angle of Reflection\obj\x86\Debug\Angle_of_Reflection360.Properties.Resources.resources
 C:\Users\andyd\Documents\Visual Studio 2010\Projects\Angle of Reflection1.3\Angle of Reflection\obj\x86\Debug\Angle of Reflection360.csproj.GenerateResource.Cache
-C:\Users\andyd\Documents\Visual Studio 2010\Projects\Angle of Reflection1.3\Angle of Reflection\obj\x86\Debug\Angle of Reflection360_1.3.exe
-C:\Users\andyd\Documents\Visual Studio 2010\Projects\Angle of Reflection1.3\Angle of Reflection\obj\x86\Debug\Angle of Reflection360_1.3.pdb
+C:\Users\andyd\Documents\Visual Studio 2010\Projects\Angle of Reflection1.3\Angle of Reflection\obj\x86\Debug\Angle of Reflection360.csprojResolveAssemblyReference.cache
+C:\Users\andyd\Documents\Visual Studio 2010\Projects\Angle of Reflection1.3\Angle of Reflection\bin\Debug\Angle of Reflection360_1.31.exe
+C:\Users\andyd\Documents\Visual Studio 2010\Projects\Angle of Reflection1.3\Angle of Reflection\bin\Debug\Angle of Reflection360_1.31.pdb
+C:\Users\andyd\Documents\Visual Studio 2010\Projects\Angle of Reflection1.3\Angle of Reflection\obj\x86\Debug\Angle of Reflection360_1.31.exe
+C:\Users\andyd\Documents\Visual Studio 2010\Projects\Angle of Reflection1.3\Angle of Reflection\obj\x86\Debug\Angle of Reflection360_1.31.pdb
