@@ -404,6 +404,8 @@ namespace Angle_of_Reflection
             Answer8Text.Text = answer8.ToString();
 
             answerOpposite.Text = answerOppAngle.ToString();
+            double answer7_Opp_RAD = Math.PI * answerOppAngle / 180.0;
+            answerOppositeRAD.Text = answer7_Opp_RAD.ToString();
 
             double toRadians = Math.PI * trackBar1.Value / 180.0;
             ray_radian_textbox.Text = toRadians.ToString();
@@ -431,6 +433,8 @@ namespace Angle_of_Reflection
 
             Answer8Text.Text = answer8.ToString();
             answerOpposite.Text = answerOppAngle.ToString();
+            double answer7_Opp_RAD = Math.PI * answerOppAngle / 180.0;
+            answerOppositeRAD.Text = answer7_Opp_RAD.ToString();
 
             double toRadians = Math.PI * (double)numericUpDown1.Value / 180.0;
             ray_radian_textbox.Text = toRadians.ToString();
@@ -459,6 +463,8 @@ namespace Angle_of_Reflection
             Answer8Text.Text = answer8.ToString();
 
             answerOpposite.Text = answerOppAngle.ToString();
+            double answer7_Opp_RAD = Math.PI * answerOppAngle / 180.0;
+            answerOppositeRAD.Text = answer7_Opp_RAD.ToString();
 
             //surface_radian_textbox.Text = answer7RAD.ToString();
             double toRadians = Math.PI * trackBar2.Value / 180.0;
@@ -489,6 +495,8 @@ namespace Angle_of_Reflection
             Answer8Text.Text = answer8.ToString();
 
             answerOpposite.Text = answerOppAngle.ToString();
+            double answer7_Opp_RAD = Math.PI * answerOppAngle / 180.0;
+            answerOppositeRAD.Text = answer7_Opp_RAD.ToString();
 
             double toRadians = Math.PI * (double)numericUpDown2.Value / 180.0;
             surface_radian_textbox.Text = toRadians.ToString();

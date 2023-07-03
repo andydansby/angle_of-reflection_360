@@ -109,6 +109,7 @@
             this.label47 = new System.Windows.Forms.Label();
             this.label48 = new System.Windows.Forms.Label();
             this.label49 = new System.Windows.Forms.Label();
+            this.answerOppositeRAD = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
@@ -532,7 +533,7 @@
             // Answer8Text
             // 
             this.Answer8Text.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Answer8Text.Location = new System.Drawing.Point(316, 141);
+            this.Answer8Text.Location = new System.Drawing.Point(279, 193);
             this.Answer8Text.Name = "Answer8Text";
             this.Answer8Text.ReadOnly = true;
             this.Answer8Text.Size = new System.Drawing.Size(48, 20);
@@ -542,7 +543,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(313, 125);
+            this.label5.Location = new System.Drawing.Point(276, 177);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(51, 13);
             this.label5.TabIndex = 64;
@@ -954,11 +955,22 @@
             this.label49.TabIndex = 53;
             this.label49.Text = "90";
             // 
+            // answerOppositeRAD
+            // 
+            this.answerOppositeRAD.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.answerOppositeRAD.Location = new System.Drawing.Point(225, 141);
+            this.answerOppositeRAD.Name = "answerOppositeRAD";
+            this.answerOppositeRAD.ReadOnly = true;
+            this.answerOppositeRAD.Size = new System.Drawing.Size(48, 20);
+            this.answerOppositeRAD.TabIndex = 88;
+            this.answerOppositeRAD.Text = "0";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(584, 619);
+            this.Controls.Add(this.answerOppositeRAD);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.label41);
             this.Controls.Add(this.label40);
@@ -1025,7 +1037,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.trackBar1);
             this.Name = "Form1";
-            this.Text = "Angle of Reflection 360  v1.3";
+            this.Text = "Angle of Reflection 360  v1.31";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).EndInit();
@@ -1131,6 +1143,7 @@
         private System.Windows.Forms.Label label47;
         private System.Windows.Forms.Label label48;
         private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.TextBox answerOppositeRAD;
     }
 }
 

@@ -9,7 +9,7 @@
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Angle_of_Reflection360</RootNamespace>
-    <AssemblyName>Angle of Reflection360_1.3</AssemblyName>
+    <AssemblyName>Angle of Reflection360_1.31</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
